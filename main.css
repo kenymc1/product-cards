@@ -7,9 +7,18 @@ html {
   scroll-behavior: smooth;
 }
 
+hr {
+  width: 60%;
+  height: 4px;
+  background-color: #7b1798;
+}
+
 h1 {
   text-align: center;
   font-size: 60px;
+  background: -webkit-linear-gradient(#7b1798, #2c0637);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .navbar img {
@@ -65,9 +74,13 @@ h1 {
 
 #about {
   background-color: rgb(240, 234, 234);
-  height: 500px;
+  display:flex;
   padding-top: 20px;
   border-bottom: #7b1798;
+}
+
+.container {
+  H
 }
 
 h2 {
@@ -85,6 +98,7 @@ h2 {
 .fas {
   font-size: 80px;
   padding-left: 40%;
+  padding-top: 20px;
   color: #7b1798;
 }
 
@@ -95,6 +109,10 @@ h2 {
 }
 
 /* -------------------------------------------------------------------------cards */
+
+#cards {
+  padding-top: 60px;
+}
 
 .card-container {
   display: inline-flex;
@@ -136,21 +154,37 @@ h2 {
 } */
 
 /* ------------------------------------------------team */
+.row {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+
 #team {
   padding-top: 20px;
   background-color: rgb(240, 234, 234);
-  height: 700px;
+  display: flex;
+  flex-direction: column;
 }
+
 
 .team {
   border-right: 4px solid #7b1798;
   margin-top: 20px;
+  /* margin-right: 10px; */
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2%;
+  width: 25%;
 }
 
-.team p {
+/* .team p {
   padding-right: 30px;
-}
+} */
 
 .team img {
   height: 150px;
@@ -163,6 +197,8 @@ h2 {
   display: inline-block;
   font-size: 12px;
 }
+
+
 
 /* ----------------------------------------------------------------contact */
 
@@ -182,8 +218,12 @@ h2 {
   background-image: linear-gradient(#7b1798, #550b6a);
   box-shadow: 12px 12px 12px 0 rgb(143, 140, 140);
 }
+
 .box p {
   text-align: center;
+}
+.box-text h1 {
+  color: white;
 }
 
 .form-group {
@@ -255,7 +295,7 @@ button {
   background: none;
   color: #fff;
   text-transform: uppercase;
-  font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   position: relative;
@@ -283,7 +323,7 @@ button:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098d1;
+  background: #280442;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
