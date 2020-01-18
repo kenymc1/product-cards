@@ -1,4 +1,4 @@
-# README.md
+# The Dagon Store
 
 ## Description
 Basic website for all your dragon needs
