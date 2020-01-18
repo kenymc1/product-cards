@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* h1 {
+  text-align: center;
+} */
+
+.navbar img {
+  width: 450px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+
+}
+
+.navbar {
+  background-color: #eee;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.navbar h1 {
+  padding: 0 20px;
+  line-height: 1.5em;
+}
+
+.navbar ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin-left: 60%;
+  padding: 10px;
+  display: flex;
+}
+
+.nav-item a {
+  margin: 1em;
+  display: block;
+  color: #111;
+
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+.nav-item a:hover {
+  color: white;
+  background-color: #111;
+}
+
+#hero img {
+  width: 100%;
+  margin-top: 70px;
+}
+
+/* ----------------------------------about */
+
+#about {
+  background-color: rgb(240, 234, 234);
+  height: 350px;
+  padding-top: 20px;
+  border-bottom: #7b1798;
+}
+
+h2 {
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  text-align: justify;
+  padding-left: 10%;
+  padding-bottom: 40px;
+}
+
+.fas {
+  font-size: 80px;
+  padding-left: 40%;
+  color: #7b1798;
+}
+
+.fab {
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+}
+
+/* -------------------------------------------------------------------------cards */
+
+
+.card-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+
+
+}
+
+.cards {
+  max-width: 20%;
+  padding: 20px;
+  border: solid #7b1798 2px;
+  Box-shadow: 12px 12px 12px 0 rgb(143, 140, 140);
+  margin: 5%;
+}
+
+.cards h2 {
+  text-align: center;
+}
+
+.cards img {
+  /* width: 350px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+}
+
+.cards h4 {
+  background-color: grey;
+  color: yellow;
+}
+
+
+#cards h1 {
+  color: green;
+  padding-right: 8%;
+}
+
+/* ------------------------------------------------team */
+#team {
+  padding-top: 20px;
+  background-color: rgb(240, 234, 234);
+  height: 600px;
+
+}
+
+.team {
+  border-right: 4px solid #7b1798;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+
+.team p {
+  padding-right: 30px;
+}
+
+.team img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 10px
+}
+
+.user-details {
+  display: inline-block;
+  font-size: 12px;
+}
+
+
+/* ----------------------------------------------------------------contact */
+
+#contact {
+  height: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 200px;
+}
+form {
+  align-content: center;
+}
+/* .contact h1 {
+  text-align: center;
+} */
+
+/* -------------------------------------------------footer */
+
+footer {
+  background-color: rgb(133, 128, 128);
+  height: 100px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  margin-top: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+footer img {
+  width: 200px;
+}
