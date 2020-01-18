@@ -1,21 +1,21 @@
-# README.md
+# README.md
 
-## Description
+## Description
 Basic website for all your dragon needs
 
 ## Technology Used
 html css git git-hub
 
-## Screenshots
+## Screenshots
 ![]
 
 
-## How to deploy
-* Clone down this project
+## How to deploy
+* Clone down this project
 
-* At the root of this project run the following command `hs -o`;
+* At the root of this project run the following command `hs -o`;
 
-* In your browser navigate to `http://localhost:8888`
+* In your browser navigate to `http://localhost:8888`
 
 # Contributors
 Kenny Mc
