@@ -1,13 +1,14 @@
 # The Dagon Store
 
 ## Description
-Basic website for all your dragon needs
+Basic website for all your dragon needs. Scroll through and find the dragon that fits your needs
 
 ## Technology Used
-html css git git-hub
+html, css, git, git-hub
 
 ## Screenshots
-![]
+![](img/screenShot1.png)
+![](img/ScreenShot2.png)
 
 
 ## How to deploy
@@ -17,5 +18,5 @@ html css git git-hub
 
 * In your browser navigate to `http://localhost:8888`
 
-# Contributors
+# Designer
 Kenny Mc
